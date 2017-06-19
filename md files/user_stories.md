@@ -5,3 +5,4 @@ This is an app used in a focus group to collect data on user preferences of pote
 2. each section? needs to have three pictures side by side weith a radio button underneath and a click button to store answer and go to next section.
 2.B. when on product is selected they can't select another product.
 2.C. can't go back sections
+3. collect data
