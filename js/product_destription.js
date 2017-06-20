@@ -5,3 +5,4 @@ function(getRandomImages)
   {
   var egami = listOfImages[i]
 }
+// make sur eno two pictures in boxes are the same
