@@ -40,7 +40,16 @@ p{
   font-size: 2em;
   text-align: center;
 }
-
+aside{
+  display: block;
+  float: left;
+  max-height: 500%;
+  max-width: 50%;
+}
+.restrict-size{
+  max-width: 100%;
+  max-height: 100%;
+}
 /*.clearfix{
   content: "";
   display: table;

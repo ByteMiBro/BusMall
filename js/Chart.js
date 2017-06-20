@@ -1,10 +1,5 @@
 'use strict';
-//when user imput page laods three images need to be presen
-//this is so i can get e pull request i mesed up
-/*function(getRandomImages)
-{
-  var egami = listOfImages[i]
-}*/
+
 // objectives for today are creating a fake data set and a cchart
 /*userData)= [
  {
@@ -21,14 +16,18 @@
  },
 ];*/
 var barData = {
-  labels: ['col1', 'col2', 'col3'],
+  labels: ['Boots', 'Chair', 'Scissors', 'Water Can', 'Wine Glass'],
   datasets: [{
-    label: 'Bar Chart',
+    label: 'User Data',
     borderWidth: 1,
+    backgroundColor: '#333',
+    borderColor: 'steelblue',
     data: [
       21,
       9,
-      2
+      2,
+      12,
+      6
     ]
   }]
 };
