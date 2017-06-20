@@ -1,4 +1,8 @@
 'use strict';
 //when user imput page laods three images need to be presented
-if
-listOfProducts[i]
+//display a random image in a box on page
+function(getRandomImages)
+  {
+  var egami = listOfImages[i]
+}
+// make sur eno two pictures in boxes are the same

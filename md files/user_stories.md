@@ -1,5 +1,4 @@
 This is an app used in a focus group to collect data on user preferences of potential products they would purchase.
-
 1. each person would need to have a login password, and a click button to get started.
 1.A. we want you intro
 1.B. store that password for that unique user.
