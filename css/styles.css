@@ -1,6 +1,7 @@
 header{
   font-size: 2em;
   text-align: center;
+  margin-bottom: 20%;
 }
 .user-imput{
   background-image: url("../images/maxresdefault.jpg");
@@ -8,10 +9,12 @@ header{
   background-attachment: fixed;
   background-position: center;
 }
-/*.main{
-  background-image: url("../images/Bus_Driver_BOLL.png");
-  background-repeat: no-repeat;
-}*/
+.main{
+    background-image: url("../images/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
 /*.backround-image{
   max-width: 100%;
   height: auto;
@@ -37,10 +40,19 @@ p{
   font-size: 2em;
   text-align: center;
 }
-.products li{
-  display: inline;
+/*.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}*/
+li{
+  display: block;
 }
-.products ul{
-  display: inline;
-  float: left;
-  list-style: none;
+
+#awsome {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  -moz-column-width: 30%;
+  -webkit-column-width: 30%
+}
