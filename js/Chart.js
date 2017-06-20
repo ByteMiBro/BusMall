@@ -18,7 +18,7 @@
 var barData = {
   labels: ['Boots', 'Chair', 'Scissors', 'Water Can', 'Wine Glass'],
   datasets: [{
-    label: 'User Data',
+    label: 'Selected',
     borderWidth: 1,
     backgroundColor: '#333',
     borderColor: 'steelblue',
@@ -27,7 +27,7 @@ var barData = {
       9,
       2,
       12,
-      6
+      35
     ]
   }]
 };

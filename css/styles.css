@@ -43,8 +43,8 @@ p{
 aside{
   display: block;
   float: left;
-  max-height: 500%;
-  max-width: 50%;
+  max-height: 100%;
+  max-width: 100%;
 }
 .restrict-size{
   max-width: 100%;
