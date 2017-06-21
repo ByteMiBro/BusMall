@@ -1,7 +1,11 @@
 header{
   font-size: 2em;
   text-align: center;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
+}
+.supper{
+  display: inline;
+  float: right;
 }
 .user-imput{
   background-image: url("../images/maxresdefault.jpg");
@@ -55,7 +59,7 @@ aside{
   display: table;
   clear: both;
 }*/
-li{
+.one li, .two li, .three li{
   display: block;
 }
 
