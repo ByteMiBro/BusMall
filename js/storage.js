@@ -6,31 +6,25 @@ function checkStorageAvailability(){
 
   }
 }*/
-var testForm = document.getElementById('awsome');
 
-testForm.addEventListener('radio', handleSubmit);
+var testForm = document.getElementById('test-form');
+
+testForm.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
   event.preventDefault();
+  var selectedTest = document.querySelector('input[name = "test"]:checked');
+//  for (j = 0 ; j < 3 ; j++) {
+    //var selectedTest = document.getElementByName('test').checked === j;
 
-  var selectedTest = event.target.querySelector('input[name = 'vote']:checked');
   var testValue = selectedTest && selectedTest.value;
-
-  var selectedLetter = event.target.querySelector('input[name = 'letter']:checked');
-  var letterValue = selectedLetter && selectedLetter.value;
-
-  var selectGeod = event.target.querySelector()
-
-  console.log({
-    test: testValue,
-    letter: letterValue
-  });
+  console.log(testValue);
 }
 
-function connectRadiotoPrduct(){
+/*function connectRadiotoPrduct(){
 
 }
 function addStoresToLocalStorage() {
   window.localStorage.stores = JSON.stringify(stores);
   console.log(window.localStorage.stores);
-}
+}*/
