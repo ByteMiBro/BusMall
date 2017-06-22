@@ -13,10 +13,18 @@ testForm.addEventListener('radio', handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
 
-  var selectedTest = event.target.querySelector("input[name = 'vote']:checked");
+  var selectedTest = event.target.querySelector('input[name = 'vote']:checked');
   var testValue = selectedTest && selectedTest.value;
 
-  var
+  var selectedLetter = event.target.querySelector('input[name = 'letter']:checked');
+  var letterValue = selectedLetter && selectedLetter.value;
+
+  var selectGeod = event.target.querySelector()
+
+  console.log({
+    test: testValue,
+    letter: letterValue
+  });
 }
 
 function connectRadiotoPrduct(){
