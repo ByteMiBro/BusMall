@@ -19,6 +19,13 @@ header{
     background-attachment: fixed;
     background-position: center;
   }
+  .para{
+    text-align: center;
+  }
+  img{
+    max-height: 100px;
+    max-width: 100px;
+  }
 /*.backround-image{
   max-width: 100%;
   height: auto;
@@ -53,19 +60,11 @@ aside{
   display: table;
   clear: both;
 }*/
-.one li, .two li, .three li{
-  display: block;
-}
-
-#test-form {
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
-  -moz-column-width: 20%;
-  -webkit-column-width: 20%
-}
 body{
   background-color: gray;
+  /*opacity:0;
+  transition: .75s;
+  box-shadow: inset 0px 0px 60px 122px rgba(248, 249, 247, .5);*/
 }
 #walker{
   position:relative;
