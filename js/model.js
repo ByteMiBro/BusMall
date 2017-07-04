@@ -21,11 +21,11 @@ var scissorDescription = new ProductDescription('The blades on these scissors we
 var watercanDescription = new ProductDescription('this watering can is recomended by the scociety of watering women as its water threshold is the largest ever created.');
 var wineglassDescription = new ProductDescription('I don\'t drink ofted, but when I do I use this clear plastic wine glass.');
 
-var bootImage = new ProductImage("../images/boots.jpg");
-var chairImage = new ProductImage("../images/chair.jpg");
-var scissorImage = new ProductImage("../images/scissors.jpg");
-var watercanImage = new ProductImage("../images/water_can.jpg");
-var wineglassImage = new ProductImage("../images/wine_glass.jpg");
+var bootImage = new ProductImage('../images/boots.jpg');
+var chairImage = new ProductImage('../images/chair.jpg');
+var scissorImage = new ProductImage('../images/scissors.jpg');
+var watercanImage = new ProductImage('../images/water_can.jpg');
+var wineglassImage = new ProductImage('../images/wine_glass.jpg');
 
 var boots = new ProductModel('Boots', '$10.00');
 var chair = new ProductModel('Chair', '$20.00');
