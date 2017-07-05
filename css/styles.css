@@ -4,6 +4,8 @@ body{
   text-align: center;
 }
 .wrapper{
+  height: 1000px;
+  width: 900px;
   margin: auto;
   text-align: center;
 }
@@ -40,28 +42,23 @@ nav a{
   font-family:'Sigmar One', cursive;
   color: black;
 }
-.supper{
-  display: inline;
-  float: right;
-}
+
 p{
   font-size: 2em;
   text-align: center;
 }
 aside{
+  width: 200px;
   display: block;
   float: left;
 }
-.one li, .two li, .three li{
-  display: block;
+.one, .two, .three{
+  display: inline-block;
 }
-
-#test-form {
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
-  -moz-column-width: 20%;
-  -webkit-column-width: 20%
+#first, #second, #third {
+  border: 1px solid;
+  width: 200px;
+  height: 200px;
 }
 #walker{
   position:relative;
