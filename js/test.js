@@ -17,23 +17,34 @@ var imageArray = [
   'images/water_can.jpg',
   'images/wine_glass.jpg',
 ];
-/*function randomImage(){
-  var num = Math.floor(Math.random() * imageArray.length);
-  document.getElementById('box').src = imageArray[num];
-}*/
+function num(){
+  return Math.floor(Math.random() * (imageArray.length));
+}
+
 function displayImage(){
-  var num = Math.floor(Math.random() * (imageArray.length));
-  var myImage = new Image(200, 200);
-  myImage.src = imageArray[num];
-
+  var randum1 = num();
+  var firstImage = new Image(200, 200);
+  firstImage.src = imageArray[randum1];
   var boxImage = document.getElementById('first');
-  boxImage.appendChild(myImage);
+  boxImage.appendChild(firstImage);
 
+  var randum2 = num();
+  while (randum1 === randum2){
+    randum2 = num();
+  }
+  var secondImage = new Image(200, 200);
+  secondImage.src = imageArray[randum2];
   var midImage = document.getElementById('second');
-  midImage.appendChild(myImage);
+  midImage.appendChild(secondImage);
 
+  var randum3 = num();
+  while (randum1 === randum3 || randum2 === randum3){
+    randum3 = num();
+  }
+  var thirdImage = new Image(200, 200);
+  thirdImage.src = imageArray[randum3];
   var lastImage = document.getElementById('third');
-  lastImage.appendChild(myImage);
+  lastImage.appendChild(thirdImage);
 }
 /*window.addEventListener('laod', updateImage);
 function updateImage(event) {
