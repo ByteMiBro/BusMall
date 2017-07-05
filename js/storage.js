@@ -2,7 +2,7 @@
 //the gaol is to store product selected after each vote to local storage
 
 //grabs form from html
-var testForm = document.getElementById('test-form');
+/*var testForm = document.getElementById('test-form');
 //tells it to run through the event handler upon submiting
 testForm.addEventListener('submit', handleSubmit);
 
@@ -46,4 +46,17 @@ function getFormsFromLocalStorage() {
 function addStoresToLocalStorage() {
   window.localStorage.forms = JSON.stringify(forms);
   console.log(window.localStorage.forms);
+}*/
+/*function makeThings(index){
+  var shown = productArray[index].shown;
+  var votes = productArray[index].vote;
+  return {shown: shown, vote: vote};
+}*/
+function stringThings(){
+  var stringy = {};
+  for(var i = 0; i < listOfProducts.length; i++){
+    stringy[listOfProducts[i].itemName] = stringThings(i);
+  }
+  return JSON.stringify(obj);
 }
+window.localStorage.storedObjects = stringThings();
